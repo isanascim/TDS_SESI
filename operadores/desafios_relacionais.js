@@ -5,7 +5,7 @@ let b = 10;
 //imprimir no console 5 números verdadeiros(true)
 
 console.log(b < a); // Menor
-console.log(b << a); // Menor ou igual
+console.log(b < a); // Menor ou igual
 console.log(b <= a); // Menor ou igual
 console.log(a > b); // maior
 console.log(a != b); // diferente
