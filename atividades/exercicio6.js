@@ -1,17 +1,17 @@
-let n1 = 10;
-let n2 = 10;
-let n3 = 10;
-let media = (n1 + n2 + n3) / 3;
+let n1 = 10.0;
+let n2 = 10.0;
+let n3 = 10.0;
+let media = (n1 + n2 + n3)  / 3;
 
 if(media >= 7.5) {
 
-    console.log("Aprovado!");
+console.log("aprovado!");
 
-} else if(media < 7.5 && media >= 5.0){
-    console.log("Recuperação!");
+}else if(media < 7.5 && media >= 5.0){
+console.log("recuperação!");
 
 }else{
-
-    console.log("Reprovado!");
+ 
+ console.log("reporvado!");
 }
-console.media(media);
+console.log(media);
