@@ -1,5 +1,7 @@
-for ( let i = 1; i <= 100; i++) {
-    console.log("Valor:" + i)
+mercadoria = 1;
+
+for ( let mercadoria = 1; mercadoria <= 100; mercadoria++) {
+    console.log("Mercadoria:" + mercadoria)
 
 }
 console.log("Fim");
