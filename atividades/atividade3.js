@@ -1,10 +1,8 @@
-let idade = 16;
-let convite = true;
-let mensagem = convite == true ? "Acesso permitido" : "Acesso negado";
+let idadeUsuario = 20;
+let possuiConvite = true;
 
-if (idade >= 18) {
-    console.log("Você está autorizado!");
+if (idadeUsuario > 18 && possuiConvite === true) {
+    console.log("Acesso autorizado ao evento VIP.");
 } else {
-    console.log("Você não pode entrar!")
+    console.log("Acesso negado.");
 }
-

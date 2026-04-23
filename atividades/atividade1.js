@@ -1,8 +1,6 @@
-var produto = "Esmalte";
-var preco = 5;
-var estoque = 10;
-let mensagem = estoque > 1 ? "Com estoque" : "Sem estoque";
-console.log(mensagem);
+let nomeProduto = "Monitor Gamer 144Hz";
+let precoUnitario = 1250.00;
+let emEstoque = true;
 
-console.log(`o item ${produto} custa: ${preco}
-disponibilidade: ${estoque}`);
+// Output formatado com Template String
+console.log(`O item ${nomeProduto} custa R$ ${precoUnitario}. Disponibilidade: ${emEstoque}.`);

@@ -1,6 +1,6 @@
-function converter(valor, taxa) {
-    let valorConvertido = valor * taxa
-    return valorConvertido
+function converterMoeda(valor, taxa) {
+    let resultado = valor * taxa;
+    console.log(`O valor convertido é: ${resultado.toFixed(2)}`);
 }
 
-console.log(converter(100, 2))
+converterMoeda(10, 5.50); // Chamada da função
