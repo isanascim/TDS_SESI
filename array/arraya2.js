@@ -1,15 +1,12 @@
-// Desafio; Inserir 5 novos índices com 5 nomes e imprimir na tela
+const nomes = [];
 
-const nomes= [];
-nomes[0] = "Isabela";
+// Desafio: Inserir 5 novos índices com 5 nomes e imprimir na tela
 
-nomes[1] = "Isaac";
-
-nomes[2] = "Denise";
-
-nomes[3] = "Cleiton";
-
-nomes[4] = "Salete";
+nomes[0] = "Lucas";
+nomes[1] = "Rodrigo";
+nomes[2] = "Kelven";
+nomes[3] = "Saymon";
+nomes[4] = "Isabela";
 console.log(nomes);
 
 
